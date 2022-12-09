@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tarea2España" type="text/xsl"?>
+<ciudades>
+    <ciudad>
+        <nombre>Navalmoral de la Mata</nombre>
+        <habitantes>10000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Cáceres</nombre>
+        <habitantes>900000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Badajoz</nombre>
+        <habitantes>110000</habitantes>
+    </ciudad>
+</ciudades>

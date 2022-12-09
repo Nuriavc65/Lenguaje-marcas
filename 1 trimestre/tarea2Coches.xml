@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tarea2Coches.xsl" type="text/xsl"?>
+<coches> 
+    <coche> 
+        <marca>Honda</marca> 
+        <modelo>Civic</modelo> 
+        <potencia>140</potencia> 
+    </coche> 
+    <coche> 
+        <marca>Renault</marca> 
+        <modelo>Megane</modelo> 
+        <potencia>90</potencia> 
+    </coche> 
+    <coche> 
+        <marca>Ford</marca>
+        <modelo>Mondeo</modelo> 
+        <potencia>150</potencia> 
+    </coche> 
+</coches>
