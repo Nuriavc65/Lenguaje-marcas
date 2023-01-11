@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?cml-stylesheet type="text/xsl" href="mesas.xsl"?>
+<catalogo>
+    <producto>
+        <calidad valor="9" />
+        <nombre>Mesa KULLEN</nombre>
+        <descripcion>Cómoda de 2 cajones35x49 cm</descripcion>
+        <precio>60€</precio>
+    </producto>
+    <producto>
+        <calidad valor="7" />
+        <nombre>Mesa MALM</nombre>
+        <descripcion>Cómoda de 3 cajones35x49 cm</descripcion>
+        <precio>90€</precio>
+    </producto>
+</catalogo>
