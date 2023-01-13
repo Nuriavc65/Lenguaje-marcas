@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Tarea Varios</title>
+    </head>
+    <body>
+        <font color=tomato>
+            <h1>Lenguaje HTML</h1>
+        </font>
+        <p align=center><u><b>HTML</b>(Lenguaje de marcas de hipertexto)</u></p>
+        <p>Se trata de un lenguaje que mediante marcas<s>(o etiquetas)</s></p>
+        <hr size=1>
+        <h2>Continuacion</h2>
+        <font color=yellow>
+            La<big>principal</big>ventaja de los lenguajes interpretados
+            como<big>HTML</big>es que producen
+        </font>
+        <p align=center><font color=purple>los mismos resultados</font></p>
+    </body>
