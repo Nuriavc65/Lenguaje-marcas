@@ -7,31 +7,50 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        Nombre: <input type="text" name="nombre" required>
-        <br><br>Apellidos: <input name="apellidos" type="text">
-        <br><br>clave: <input name="clave" type="text">
-        <br><br>Direccion: <input name="clave" type="text">
-        <br><br>Codigo postal: <input name="cod.postal" type="text" value="33420" size="5" maxlength="5">
-        <br><br>Selecciona tu musica favorita: 
-        <input type="checkbox" name="tokio hotel" value="tokio hotel">tokio hotel
-        <input type="checkbox" name="e.iglesias" value="e.iglesias">E.iglesias<br>
-        <br><br>Selecciona tu grupo favorito:
-        <input type="radio" name="El forcon FC" value="El forcon FC">El forcon FC
-        <input type="radio" name="La polesa industrial" value="La polesa Industrial">La polesa industrial<br>
-        <br><label for="mensaje">Algun comentario: </label><br>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+        <br><br>
+            <label for="apellidos">Apellidos</label>
+            <input name="apellidos" type="text">
+        <br><br>
+            <label for="clave">Clave</label>
+            <input name="clave" type="text">
+        <br><br>
+            <label for="direccion">Direccion</label>
+            <input name="direccion" type="text">
+        <br><br>
+            <label for="codigopostal">Código Postal</label>
+            <input name="codpostal" type="number" placeholder="33420" size="5" maxlength="5">
+        <br><br>
+            <label for="musica">Selecciona tu musica favorita:</label>
+            <input type="checkbox" name="musica" value="tokio hotel">tokio hotel
+            <input type="checkbox" name="musica" value="e.iglesias">E.iglesias
+            <input type="checkbox" name="musica" value="camela">Camela
+        <br><br>
+            <label for="grupo">Selecciona tu grupo favorito:</label>
+            <input type="radio" name="grupo" value="El forcon FC" checked>El forcon FC
+            <input type="radio" name="grupo" value="La polesa Industrial">La polesa industrial
+        <br><br>
+            <label for="mensaje">Algun comentario: </label><br>
             <textarea name="mensaje" cols="50" rows="6"></textarea>
             <text name="mensaje"></text>
-        <br>Elije un escritor<select name="escritor">
+        <br><br>
+            <label for="autores">Elije un escritor</label>
+            <select name="autores">
             <option>Elvira Lindo</option>
             <option>Dan Brown</opcion>
             <option>Fernando de Rojas</option>
             <option>Tom Sharpe</opcion>
             <option>Almudena Grandes</option>
         </select>
-        <br><br>Adjunta tu foto
-
-        
+        <br><br>
+            <label>Adjunta una foto</label>
+        <br><br>
+            <input type="file" name="archivossubidos[]" multiple>
+        <br><br>
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="borrar">
     </form>
 </body>
 </html>
