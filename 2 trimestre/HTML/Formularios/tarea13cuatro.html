@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+
+    </style>
+<body>
+    <form name="datos basicos">
+        <fieldset>
+            <legend>Datos Basicos</legend>
+            <label for="usuario">Usuario</label>
+            <input name="usuario" type="user" maxlength="30">
+            <br>
+                <label for="correo">Correo</label>
+                <input name="correo" type="email">
+                <label for="contrase">contraseña</label>
+                <input name="contrase" type="password">
+        </fieldset>
+        <br><fieldset>
+           <legend>Opinión</legend>
+            <label for="fecha">Fecha de matricula</label>
+            <input name="fecha" type="date" 
+                   step="1"
+                   min="2023-02-08"
+                   max="2023-02-28"
+                   />
+            <br>
+                <label for="aula">Color de aula</label>
+                <input name="aula" type="color">
+            <br>
+                <label for="Opinión"></label>
+                <input name="Opinión" type="radio">DAM
+                <input name="opicion" type="radio">DAW
+                <textarea name="Opinión"></textarea>
+             
+        </fieldset>
+    </form>
+        <button type="submit" form="datos basicos" >Enviar</button>
+        <button type="reset" form="datos basicos">Reiniciar</button>
+</body>
+</html>

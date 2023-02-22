@@ -5,11 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+     .pink{
+        background-color: fuchsia;
+        text-align: center;
+     }
+     .cream{
+        background-color: cornflowerblue;
+        
+     }
+    </style>
+
 </head>
 <body>
     <form id="fomulario">
+    <div class="pink">
         <label >Por favor rellenar estos datos</label>
-        
+    </div>
+    <div class="cream">
+        <br><br>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name">
+        <br><br>
+            <label for="surname">Apellidos:</label>
+            <input type="text" name="surname">
+        <br><br>
+            <label for="adress">Direccion:</label>
+            <input type="text" name="adress">
+        <br><br>
+            <label for="codigo"> Codigo Postal:</label>
+            <input type="numer" name="codigo">
+        <br><br>
+            <label for="teams">Equipo Favorito</label>
+            <input type="checkbox" name="teams" value="Forcon FC">Forcon FC
+            <input type="checkbox" name="teams" value="La polesa Industrial">La polesa Industrial
+        <br><br>
+            <label for="music">Selecciona tu musica favorita</label>
+            <input type="radio" name="music" value="Tokio Hotel">Tokio Hotel
+            <input type="radio" name="music" value="E.iglesias">E.Iglesias
+            <input type="radio" name="music" value="Carmina">Carmina
+        <br><br>
+            <label for="autores">Elije tu autor preferido</label>
+            <select name="autores">
+                <option>Elvira Linfo</option>
+                <option>Hunter Akedo</option>
+                <option>William Shakespeare</option>
+                <option>Rick Riordan</option>
+            </select>
+        <br><br>
+            <label for="comentario">¿Algun comentario?</label>
+            <textarea name="comentario" cols="50" rows="6"></textarea>
+            <text name="comentario"></text>
+        <br><br>
+            <label>Adjunta una foto</label>
+            <input type="file" name="archivossubidos[]" multiple>
+    </div>    
     </form>
 </body>
 </html>
