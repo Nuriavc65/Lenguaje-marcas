@@ -13,24 +13,24 @@
             <input name="usuario" type="text">
             <br><br>
                 <label for="contraseña">Password</label>
-                <input name="contraseña" type="text">
+                <input name="contraseña" type="password">
             <br><br>
                 <label for="contraseña">Confirma tu Password</label>
-                <input name="contraseña" type="text">
+                <input name="contraseña" type="password">
             <br><br>
-                <label for="edad">edad:</label>
+                <label for="edad">Edad:</label>
                 <input name="edad" type="number">
             <br><br>
-                <label for="correo">telefono:</label>
+                <label for="correo">Telefono:</label>
                 <input name="correo" type="number">
             <br><br>
-                <label for="naciminto">fecha de nacimiento</label>
-                <input name="nacimiento" type="number">
+                <label for="naciminto">Fecha de nacimiento</label>
+                <input name="nacimiento" type="date">
             <br><br>
                 <label for="colores">Te identificas con:</label>
                 <input name="colores" type="color">
              <br><br>
-                <label for="horoscopo">te identificas con:</label>
+                <label for="horoscopo">Te identificas con:</label>
                 <select name="horoscopo">
                     <option>Leo</option>
                     <option>Acuario</option>
@@ -44,20 +44,23 @@
                     <option>capricornio</option> 
                 </select> 
         </fieldset>
+        <br>
         <fieldset>
             <label for="horas">Horas diarias de ocio</label>
             <input name="horas" type="number">
             <br><br>
                 <fieldset>
                     <label for="pasiones"></label>
-                    <br><input name="pasiones" type="checkbox">Progrmar
+                    <br><input name="pasiones" type="checkbox">Programar
                     <br><input name="pasiones" type="checkbox">Leer
                     <br><input name="pasiones" type="checkbox">Bailar
                 </fieldset>
         </fieldset>
         <p>
-            <input type="submit" value="enviar"></input>
+            <input type="submit" value="Guardar" />
+            <input type="reset" value="Resetar" />
         </p>
     </form>
+    <!--<button form="all" type="reset">Restablecer</button>-->
 </body>
 </html>
