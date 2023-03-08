@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        #menu {
+        width: 1000px;
+        margin: 40px auto 20px auto;
+        padding-bottom: 50px;
+        border-bottom: solid 1px black;
+        
+        }
+        .menuprincipal li{
+            float: left;
+            list-style: none;
+            font-size: 0.8em;
+            margin:0px 7px;
+            text-transform: uppercase;
+            
+            
+        }
+        .menuprincipal li a{
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        
+        }
+        .menuprincipal li a:hover{
+            font-weight: bold;
+            border-bottom: solid 1px orange;
+        }
+        .selected{
+            font-weight: bold;
+            border-bottom: solid 1px orange;
+        }
+        .contenedor{
+            text-align: center;
+            width: 500px;
+            margin: 0 auto;
+        }
+        .contenedor h1{
+            font-weight: bold;
+            font-size: 0.7em;
+        }
+        .contenedor h2{
+            font-weight: bold;
+            font-size: 2.5em;
+            font-family:'Times New Roman', Times, serif;
+            margin-bottom: 0;
+        }
+        .contenedor p{
+            font-weight: 30px;
+        }
+
+        .textofoto{
+            text-align: left;
+            border-left: solid orange 1px;
+            padding-left: 10px;
+            font-size: 1em;
+        }
+
+       
+    </style>
+    
+    <header>
+        <div id="menu">
+            <ul class="menuprincipal">
+                <li><a href="#">Reportajes de Multimedia</a></li>
+                <li><a href="#">Actualidad</a></li>
+                <li><a href="#">Volcanes</a></li>
+                <li><a class="selected" href="#">Ciencia</a></li>
+                <li><a href="#">Naturaleza</a></li>
+                <li><a href="#">Tests</a></li>
+                <li><a href="#">Foto de dia</a></li>
+                <li><a href="#">Edicion impresa</a></li>
+                <li><a href="#">newsletter</a></li>
+            </ul>
+        </div>
+        <div class="contenedor">
+            <h1>Ciencia</h2>
+            <h2>Exoplanetas, un cosmos lleno de vida</h2>
+            <p >
+                Muchas estrellas tienen algún planeta girando a su alrededor. Algunos reúnen ciertas características similares a la Tierra, lo que aumenta la probabilidad de encontrar vida en ellos. La pregunta clave ahora es si algún día la descubriremos.  
+            </p>
+            <img src="./imgPlanetas/foto1.jpg" width="500" height="auto">
+            <p class="textofoto">Recreación artística que muestra cómo la atmósfera de un exoplaneta se evapora por la cercanía a su estrella.</p>
+            <img src="./imgPlanetas/foto2.jpg" width="500" height="auto">
+            <p class="textofoto">El Telescopio Espacial Hubble sitúa su órbita a unos 540 kilómetros de la Tierra</p>
+        
+        </div>
+    </header>
+<body>
+    
+</body>
+</html>
