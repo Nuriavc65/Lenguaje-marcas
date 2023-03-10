@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIP-HOP</title>
+    <link rel="icon" href="./imgWeb/Crazy-Graffiti-01.jpg" type="image/jpg">
+</head>
+<style>
+          body{
+            background-image: url(./imgWeb/textura-pared-grunge.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .menu{
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+        margin: 40px auto 20px auto;
+        padding-bottom: 50px;
+        border-bottom: solid 4px rgb(252, 181, 0);
+        
+        }
+        .menuprincipal li{
+            float: left;
+            list-style: none;
+            font-size: 0.8em;
+            margin:0px 7px;
+            text-transform: uppercase;
+            
+        }
+        .menuprincipal li a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-family: urban;
+            text-align: center;
+            
+        
+        }
+        .menuprincipal li a:hover{
+            font-weight: bold;
+            border-bottom: solid 3px rgb(72, 0, 255);
+        }
+        .selected{
+            font-weight: bold;
+            border-bottom: solid 3px rgb(72, 0, 255);
+        }
+        .contenedor{
+            text-align: center;
+            width: 500px;
+            margin: 0 auto;
+        }
+        .contenedor h1{
+            font-weight: bold;
+            font-size: 0.7em;
+        }
+        .contenedor h2{
+            font-size: 3.7em;
+            font-weight: bold;
+            font-family: urban;
+        }
+        .contenedor p{
+            font-weight: 30px;
+            text-align: justify;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+       
+        @font-face{
+            src: url(./fontsWeb/urban-heroes.ttf);
+            font-family: urban;
+        }
+        form{
+            font-weight: bold;
+        }
+        fieldset {
+            background-color: rgba(0, 0, 0, .3);
+        }
+
+</style>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menuprincipal">
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Puntos de interes</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a class="selected" href="#">Historia</a></li>
+                <li><a href="#">Galeria</a></li>
+            </ul> 
+        </nav>
+    </header>
+
+    <article>
+        <div class="contenedor">
+            <h1>Historia</h1>
+            <h2>THE BRONX SOUL</h2>
+            <p>Este 2023 se cumplen 50 años del nacimiento del hip hop. Una corriente cultural y artística que se originó en El Bronx, barrio de Nueva York poblado de forma predominante por afroamericanos, latinoamericanos e inmigrantes caribeños que son los responsables de la creación de una cultura que podría llamarse contracultura en sus inicios</p>
+            <p>Los años 70 vinieron marcados por el declive de la era postindustrial, la crisis económica, la falta de oportunidades y, especialmente, la persecución y opresión hacia las minorías raciales. Todos estos elementos unidos a la segregación y la creación de ghettos, favorecieron la creación de una cultura propia, de una identidad que permitiera cohesionar y generar valor en estos barrios. Nació en la calle, desde abajo, desde la pureza y la expresión propia.</p>
+            <img src="./imgWeb/OIP.jpeg" width="500" height="auto">
+            <img src="./imgWeb/R.jpeg" width="500" height="auto">
+            <p>
+                Lo más aceptado es que la palabra hip hop no provenga de ninguna anterior, sino que sea más bien una formación onomatopéyica. El uso más antiguo del término parece venir acreditado a Keith “Cowboy” Wiggins, miembro del Grandmaster Flash and the Furious Five, un grupo americano de hip hop formado en 1978. En ese mismo año un amigo de Cowboy Wiggins se había alistado en el Ejército de los Estados Unidos y Wiggins, en tono de humor, le canturreaba a ritmo de scat los típicos sonidos de marcha militar, “¡hip-hop-hip-hop!”, quedándose entonces esa cadencia y ritmo para denominar la música que hacían.
+            </p>
+        </div>
+    </article> 
+
+    <footer>
+        <form>
+            <fieldset>
+                <legend>¿mas informacion?</legend>
+                    <br>
+                    <label for="correo">Correo Electronico</label>
+                    <input name="correo" type="email">
+                    <br><br>
+                    <label for="comentario"></label>
+                    <textarea name="comentario" cols="50" rows="6"></textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar comentario">
+                    <input type="reset" value="borrar">
+            </fieldset>
+        </form>
+    </footer>
+
+</body>
+</html>
