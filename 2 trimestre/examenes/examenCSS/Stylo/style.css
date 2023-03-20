@@ -1,0 +1,108 @@
+.index-body {
+    display: grid;
+    background-image: url(./../img/pinguino.jpg);
+    justify-content: end;
+}
+
+.morado,
+.pregunta2 {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin-top: 50%;
+    height: 60px;
+    width: 500px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid orange;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: purple;
+    color: white;
+}
+
+table {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-collapse: separate;
+    border-spacing: 0 30px;
+}
+
+th {
+    background-color: purple;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    background-color: #b8e2f2;
+    padding: 8px;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.abajo {
+    transform: rotate(4deg);
+}
+
+.arriba {
+    transform: rotate(-4deg);
+}
+
+.column4 {
+    text-align: end;
+}
+
+form {
+    display: grid;
+    width: 500px;
+}
+
+input {
+    height: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-color: purple;
+    border-width: 1px;
+}
+
+textarea {
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 10em;
+    border-color: purple;
+    border-width: 1px;
+}
+
+input:hover {
+    background-color: purple;
+    color: yellow;
+}
+
+textarea:hover {
+    background-color: purple;
+    color: yellow;
+}
