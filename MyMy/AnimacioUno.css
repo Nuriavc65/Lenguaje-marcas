@@ -1,0 +1,19 @@
+
+div{
+    animation-name: uno;    
+    animation-duration: 15s;    /* duracion de la animacion */
+    animation-iteration-count: infinite;  /* numero de veces que se va a repetir el ciclo la animacion
+    en este caso se reperira infimitas veces*/
+    
+}
+
+@keyframes hola{   /* fotogramas de la animacion*/         
+    from{
+        left:0;
+        top:0;
+    }
+    to{
+        left:100px;
+        top: 100px;
+    }
+}
